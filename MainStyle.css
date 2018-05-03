@@ -1,0 +1,153 @@
+body {
+	display: flex;
+	flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: linear-gradient(to bottom right, rgb(30,30,30), rgb(15,15,15));
+    background-color: rgb(20,20,20);
+    color: white;
+    font-size: 1.25em;
+}
+
+p > a {
+	color: #E7E92E;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #E7E92E;
+}
+
+header > h1 {
+	font-size: 4em;
+	color: black;
+	white-space: pre;
+}
+
+.intro {
+	font-size: 1.5em;
+	display: flex;
+	justify-content: center;
+}
+
+.contactLinks {
+	display: flex;
+	justify-content: center;
+}
+
+.contactLinks > a {
+	font-size: 2em;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-right: 20px;
+
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.contactLinks > a:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);	
+} 
+
+#resume {
+	background-color: white;
+	color: black;
+	font-weight: bold;
+}
+#github {
+	background-color: #302EE9;
+	color: white;
+	padding: 10px 30px 10px 30px;
+}
+#behance {
+	background-color: #302EE9;
+	color: white;
+	padding: 10px 30px 10px 30px;
+}
+
+.container {
+	width: 80%;
+}
+
+.containerContent {
+	margin-left: 5%;
+}
+
+.container > h2 {
+	font-size: 2em;
+	padding-bottom: 3px;
+	border-bottom: 3px solid #E92EE7;
+}
+
+ul {
+	list-style-type: square;
+	margin: 0;
+	padding: 0;
+}
+
+#contests {
+	margin-left: 2%;
+}
+
+.projects > .containerContent > ul {
+	list-style-type: none;
+}
+
+.project {
+	background-color: rgba(255,255,255,.05);
+	padding: 20px;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+
+.project * {
+	padding: 0;
+	margin: 0;
+}
+
+.projectContent {
+	margin-left: 2%;
+}
+
+.projectTitle {
+	text-decoration: underline;
+}
+
+.projectContent > p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.links {
+	margin: 2%;
+}
+
+.pLink {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+	margin-right: 15px;
+	font-size: 1em;
+}
+
+.projectGit {
+	border: 3px solid #302EE9;
+}
+.projectGit:hover {
+	background-color: #302EE9; 
+}
+
+.projectLive {
+	border: 3px solid #2EE930;
+}
+.projectLive:hover {
+	background-color: #2EE930;
+}
