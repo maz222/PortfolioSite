@@ -62,12 +62,12 @@ header > h1 {
 	font-weight: bold;
 }
 #github {
-	background-color: #302EE9;
+	background-color: #2E89E9;
 	color: white;
 	padding: 10px 30px 10px 30px;
 }
 #behance {
-	background-color: #302EE9;
+	background-color: #2E89E9;
 	color: white;
 	padding: 10px 30px 10px 30px;
 }
@@ -139,10 +139,10 @@ ul {
 }
 
 .projectGit {
-	border: 3px solid #302EE9;
+	border: 3px solid #2E89E9;
 }
 .projectGit:hover {
-	background-color: #302EE9; 
+	background-color: #2E89E9; 
 }
 
 .projectLive {
